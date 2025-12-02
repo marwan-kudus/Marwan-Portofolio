@@ -67,7 +67,7 @@ function Header() {
                 className={`relative px-4 py-2 transition-all duration-300 ${
                   activeSection === item.id
                     ? 'text-cyan-400 neon-glow'
-                    : 'text-white-700 hover:text-cyan-400'
+                    : 'text-white-900 hover:text-cyan-400'
                 }`}
               >
                 {item.label}
@@ -97,8 +97,8 @@ function Header() {
                     onClick={() => scrollToSection(item.id)}
                     className={`text-left p-2 space-y-1 transition-all duration-300 ${
                       activeSection === item.id
-                        ? 'text-black  neon-glow'
-                        : 'text-black hover:text-cyan-400'
+                        ? 'text-white-900  neon-glow'
+                        : 'text-white-900 hover:text-cyan-400'
                     }`}
                   >
                     {item.label}
