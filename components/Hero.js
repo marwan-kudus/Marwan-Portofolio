@@ -68,7 +68,7 @@ function Hero() {
               </span>
             </div>
 
-            <p className='text-base md:text-lg text-gray-300 mb-8 max-w-lg leading-relaxed'>
+            <p className='text-base md:text-lg text-white-700 mb-8 max-w-lg leading-relaxed'>
               Creating intelligent, scalable, and elegant digital solutions with
               cutting-edge technology.
             </p>

@@ -50,16 +50,16 @@ function Header() {
         data-file='components/Header.js'
         className='fixed top-0 w-full z-50 glass-effect border-b border-purple-500/30'
       >
-        <nav className='container mx-auto px-6 py-4 flex justify-between items-center'>
+        <nav className='container mx-auto px-4 py-2 flex justify-between items-center'>
           <div className='nav-brand orbitron cursor-pointer'>
             <img
               src='/images/marwan.png'
               alt='Logo Marwan Portfolio'
-              className='h-20 w-20 rounded-lg border-4 border-cyan-400 shadow-lg shadow-cyan-400/50'
+              className='h-14 w-14 rounded-lg border-4 border-cyan-400 shadow-lg shadow-cyan-400/50'
             />
           </div>
 
-          <div className='hidden text-xl md:flex space-x-8'>
+          <div className='hidden text-xl md:flex space-x-8 '>
             {navItems.map((item) => (
               <button
                 key={item.id}
@@ -67,7 +67,7 @@ function Header() {
                 className={`relative px-4 py-2 transition-all duration-300 ${
                   activeSection === item.id
                     ? 'text-cyan-400 neon-glow'
-                    : 'text-gray-300 hover:text-cyan-400'
+                    : 'text-white-700 hover:text-cyan-400'
                 }`}
               >
                 {item.label}
@@ -90,15 +90,15 @@ function Header() {
 
           {isMobileMenuOpen && (
             <div className='absolute top-full left-0 w-full glass-effect border-b border-purple-500/30 md:hidden'>
-              <div className='flex flex-col p-4 space-y-2'>
+              <div className='flex flex-col p-2 space-y-1'>
                 {navItems.map((item) => (
                   <button
                     key={item.id}
                     onClick={() => scrollToSection(item.id)}
-                    className={`text-left px-4 py-2 transition-all duration-300 ${
+                    className={`text-left p-2 space-y-1 transition-all duration-300 ${
                       activeSection === item.id
-                        ? 'text-cyan-400 neon-glow'
-                        : 'text-gray-300 hover:text-cyan-400'
+                        ? 'text-black  neon-glow'
+                        : 'text-black hover:text-cyan-400'
                     }`}
                   >
                     {item.label}
