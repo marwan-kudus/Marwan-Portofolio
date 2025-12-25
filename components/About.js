@@ -30,13 +30,15 @@ function About() {
                 <span className='text-cyan-400 font-semibold'>
                   Cece Sumarwan Preferred Name : Marwan
                 </span>
-                , a Full-Stack Developer and Specialist Front-End Web Developer,
-                Computer Network and Cybersecurity Enthusiast, and Future-Ready
-                Coder. I build modern, fast, and user-focused web applications
-                while applying strong fundamentals in networking and
-                cybersecurity. I’m dedicated to continuous learning, exploring
-                new technologies, and creating secure, scalable, and meaningful
-                digital solutions.
+                , Administrative professional with over 10 years of experience
+                and more than 2 years in product data entry and remote blog
+                writing. Proven ability to manage high-volume data with a 99%
+                accuracy rate and reduce processing time by up to 15% through
+                automation. Strong background in data management, web-based
+                automation, and the implementation of cybersecurity best
+                practices to support efficient and secure business operations.
+                Ready to contribute to the team and available for interview
+                opportunities.
               </p>
 
               <div className='grid grid-cols-1 gap-6'>
@@ -65,7 +67,7 @@ function About() {
                     />
                     <div>
                       <div className='text-3xl font-bold text-magenta-400'>
-                        1+
+                        10+
                       </div>
                       <div className='text-gray-400 text-2xl'>
                         Years Experience

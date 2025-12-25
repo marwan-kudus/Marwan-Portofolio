@@ -2,6 +2,61 @@ function Skills() {
   try {
     const skills = [
       {
+        name: 'Data Entry',
+        description:
+          'Accurate and efficient input of high-volume data with strong attention to detail.',
+        icon: '/icons skill/data entry.png',
+      },
+      {
+        name: 'Mastering Data Entry Tools and Techniques',
+        description:
+          'Developing expertise in data entry tools and techniques to ensure high accuracy, consistency, and efficiency in handling large volumes of data.',
+        icon: '/icons skill/tools.png',
+      },
+      {
+        name: 'Administrative Support',
+        description:
+          'Managing daily administrative tasks, documentation, and operational support.',
+        icon: '/icons skill/adm.png',
+      },
+      {
+        name: 'Data Management',
+        description:
+          'Organizing, validating, and maintaining structured datasets for accuracy and consistency.',
+        icon: '/icons skill/data management.png',
+      },
+      {
+        name: 'Microsoft Excel',
+        description:
+          'Advanced spreadsheet usage including formulas, data scrubbing, and reporting.',
+        icon: '/icons skill/excel.png',
+      },
+      {
+        name: 'Google Sheets',
+        description:
+          'Cloud-based data collaboration, validation, and automation with formulas.',
+        icon: '/icons skill/sheets.png',
+      },
+      {
+        name: 'ERP & CRM Systems',
+        description:
+          'Handling transactional data, customer records, and system-based workflows.',
+        icon: '/icons skill/erp.png',
+      },
+      {
+        name: 'Document Management',
+        description:
+          'Creating, organizing, and maintaining digital documents and records.',
+        icon: '/icons skill/doc management.png',
+      },
+      {
+        name: 'Data Verification',
+        description:
+          'Ensuring data accuracy through validation, cross-checking, and quality control.',
+        icon: '/icons skill/verification.png',
+      },
+
+      {
         name: 'HTML',
         description: 'Semantic structure',
         icon: '/icons/html.png',

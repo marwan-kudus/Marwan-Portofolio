@@ -6,9 +6,9 @@ function Hero() {
     const [isTypingPaused, setIsTypingPaused] = React.useState(false);
 
     const texts = [
-      'Web Developer',
-      'Computer Network and Cybersecurity Enthusiast',
-      'Future-Ready Coder',
+      'Administrative and Data Entry Professional',
+      'Automation and Internal Tools Developer',
+      'Cybersecurity-Aware Data Specialist',
     ];
 
     React.useEffect(() => {
@@ -69,8 +69,9 @@ function Hero() {
             </div>
 
             <p className='text-base md:text-lg text-white-700 mb-8 max-w-lg leading-relaxed'>
-              Creating intelligent, scalable, and elegant digital solutions with
-              cutting-edge technology.
+              Delivering accurate data management, efficient administrative
+              support, and secure automation solutions through internal tools
+              and technology-driven workflows.
             </p>
 
             <button onClick={scrollToProjects} className='cta-button'>

@@ -2,6 +2,30 @@ function Projects() {
   try {
     const projects = [
       {
+        title: 'Product Data Entry System',
+        description:
+          'A structured product entry system for managing product names, categories, pricing, stock, and descriptions with high accuracy and validation.',
+        tags: ['Data Entry', 'Excel', 'Google Sheets', 'ERP/CRM'],
+        iconPath: '/icons project/projek data entry.png',
+        className: 'w-50 h-50',
+      },
+      {
+        title: 'Data Scrubbing and Validation',
+        description:
+          'A data scrubbing process to clean, validate, and standardize datasets by applying filtering and sorting techniques, removing duplicates, correcting errors, and ensuring data consistency.',
+        tags: [
+          'Data Scrubbing',
+          'Data Cleaning',
+          'Filtering',
+          'Sorting',
+          'Google Sheets',
+        ],
+
+        iconPath: '/icons project/data.png',
+        className: 'w-50 h-50',
+      },
+
+      {
         title: 'App To Do List',
         description: 'Team-based note taking with themes & collaboration',
         tags: ['Tailwind CSS', 'TS', 'Next.JS'],
@@ -61,7 +85,9 @@ function Projects() {
                     <img
                       src={project.iconPath}
                       alt={`Icon for ${project.title}`}
-                      className='w-20 h-20 rounded-md object-contain' // Atur ukuran gambar di sini
+                      className={`rounded-md object-contain ${
+                        project.className ? project.className : 'w-20 h-20'
+                      }`}
                     />
                   ) : (
                     project.icon // Jika tidak ada iconPath, tampilkan project.icon (emoji)
