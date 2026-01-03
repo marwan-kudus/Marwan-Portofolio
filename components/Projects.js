@@ -10,6 +10,36 @@ function Projects() {
         className: 'w-50 h-50',
       },
       {
+        title: 'Messy IMDB Dataset Cleaning',
+        description:
+          'A comprehensive data preprocessing project focused on cleaning and structuring raw IMDB movie data, handling missing values, removing duplicates, and normalizing formats for analysis.',
+        tags: [
+          'Data Entry',
+          'Excel',
+          'Google Sheets',
+          'Data Cleaning',
+          'Data Preprocessing',
+        ],
+        iconPath: '/icons project/clean data imdb.png',
+        className: 'w-50 h-50',
+      },
+      {
+        title: 'Marketing Data Analize ',
+        description:
+          'Analyzing marketing campaign performance to identify trends, optimize ROI, and provide actionable insights through data visualization and customer segmentation.',
+        tags: ['Data Analysis', 'Marketing Strategy', 'Tableau/PowerBI'],
+        iconPath: '/icons project/data analize.png',
+        className: 'w-50 h-50',
+      },
+      {
+        title: 'Data Cleaning and Visualization',
+        description:
+          'Transforming raw, noisy data into polished visual dashboards by performing rigorous data scrubbing, handling inconsistencies, and creating interactive charts to reveal hidden patterns.',
+        tags: ['Data Cleaning', 'Data Visualization', 'Excel/SQL', 'Dashboard'],
+        iconPath: '/icons project/pivot table.png',
+        className: 'w-50 h-50',
+      },
+      {
         title: 'Data Scrubbing and Validation',
         description:
           'A data scrubbing process to clean, validate, and standardize datasets by applying filtering and sorting techniques, removing duplicates, correcting errors, and ensuring data consistency.',
@@ -22,6 +52,14 @@ function Projects() {
         ],
 
         iconPath: '/icons project/data.png',
+        className: 'w-50 h-50',
+      },
+      {
+        title: 'Movie Search Web App',
+        description:
+          'A responsive web application to search and view movie details using a third-party API.',
+        tags: ['React', 'API', 'TS', 'Tailwind CSS'],
+        iconPath: '/icons project/movie.png',
         className: 'w-50 h-50',
       },
 
@@ -38,13 +76,6 @@ function Projects() {
         iconPath: '/icons project/res.png',
       },
 
-      {
-        title: 'Movie Search Web App', // Web Pencarian Film
-        description:
-          'A responsive web application to search and view movie details using a third-party API.',
-        tags: ['React', 'API', 'TS', 'Tailwind CSS'],
-        iconPath: '/icons project/mov.png',
-      },
       {
         title: 'E-commerce Store',
         description:
